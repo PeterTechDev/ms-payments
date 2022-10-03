@@ -33,10 +33,6 @@ public class Payment {
 
     @NotBlank
     @Size(max = 19)
-    private String description;
-
-    @NotBlank
-    @Size(max = 19)
     private String validation;
 
     @NotBlank
