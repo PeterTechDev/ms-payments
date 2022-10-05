@@ -13,7 +13,7 @@ import javax.validation.constraints.Size;
 import java.math.BigDecimal;
 
 @Entity
-@Table(name = "patments")
+@Table(name = "payments")
 @Getter @Setter
 @AllArgsConstructor
 @NoArgsConstructor
@@ -44,8 +44,8 @@ public class Payment {
     private Status status;
 
     @NotNull
-    private Long orderId;
+    private Long order_id;
 
     @NotNull
-    private Long paymentMethodId;
+    private Long payment_method_id;
 }
