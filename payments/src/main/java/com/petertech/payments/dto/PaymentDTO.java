@@ -16,6 +16,6 @@ public class PaymentDTO {
     private String validation;
     private String code;
     private Status status;
-    private Long paymentMethodId;
-    private Long orderId;
+    private Long payment_method_id;
+    private Long order_id;
 }
